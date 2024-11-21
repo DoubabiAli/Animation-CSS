@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Animation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="icon" type="png" href="logo.png">
+</head>
+<body>
+    
+    <!--Slides-->
+    
+    <div class="slider">
+        <input type="radio" name="radio-btn" id="radio1" style="display: none;" checked>
+        <input type="radio" name="radio-btn" id="radio2" style="display: none;">
+        <input type="radio" name="radio-btn" id="radio3" style="display: none;">
+        
+        <div class="slides">
+            <div class="slide">
+                <img src="image1.jpg" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="image2.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="image3.jpg" alt="Slide 3">
+            </div>
+        </div>
+    
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+
+    <!--Time-lane-->
+    
+    <div class="timeline">
+        <div class="timeline-item left">
+          <div class="content">
+            <h3>Événement 1</h3>
+            <p>Description de l'événement 1. Cette section contient les détails et informations importantes.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="content">
+            <h3>Événement 2</h3>
+            <p>Description de l'événement 2. Cette section contient les détails et informations importantes.</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="content">
+            <h3>Événement 3</h3>
+            <p>Description de l'événement 3. Cette section contient les détails et informations importantes.</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="content">
+            <h3>Événement 4</h3>
+            <p>Description de l'événement 4. Cette section contient les détails et informations importantes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!--Plus-Moins-->
+      
+      <div class="faq"></div>
+        <div class="case-titre">
+            <input type="checkbox" id="question1">
+            <label class="faq-label" for="question1">
+                <span class="plus-moins"></span>
+                Question 1 : Qu'est-ce qu'un accordéon en CSS ?
+            </label>
+            <div class="faq-text">
+                <p>Un accordéon en CSS est un effet de présentation où les réponses aux questions apparaissent et disparaissent en cliquant sur les titres des questions.</p>
+            </div>
+        </div>
+        <div class="case-titre">
+            <input type="checkbox" id="question2">
+            <label class="faq-label" for="question2">
+                <span class="plus-moins"></span>
+                Question 2 : Puis-je créer un accordéon sans JavaScript ?
+            </label>
+            <div class="faq-text">
+                <p>Oui, vous pouvez utiliser uniquement HTML et CSS avec des cases à cocher et des labels associés.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="question3">
+            <label class="faq-label" for="question3">
+                <span class="plus-moins"></span>
+                Question 3 : Comment styliser mon accordéon ?
+            </label>
+            <div class="faq-text">
+                <p>Vous pouvez utiliser des propriétés CSS comme les ombres, les transitions et les couleurs pour rendre votre accordéon visuellement attrayant.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Progress-Bar-->
+    
+    <div class="progress">
+        <div class="barre">
+            <div class="text">75%</div>
+        </div>
+    </div>
+</body>
+</html>
